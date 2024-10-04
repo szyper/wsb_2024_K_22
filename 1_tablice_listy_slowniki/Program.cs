@@ -1,10 +1,61 @@
-﻿namespace _1_tablice_listy_slowniki
+﻿
+
+namespace _1_tablice_listy_slowniki
 {
   internal class Program
   {
     static void Main(string[] args)
     {
-      Console.WriteLine("Hello, World!");
+      int n = ReadInt("Podaj liczbę n:", 0, int.MaxValue);
+
+      string[] names = new string[n];
+      int[] ages = new int[n];
+
+      for (int i = 0; i < n; i++)
+      {
+        names[i] = ReadString($"Podaj imię osoby {i + 1}:");
+        ages[i] = ReadInt($"Podaj wiek osoby {i + 1}:", 0, 150);
+      }
+
+      List<string> namesStartsWithA = names.Where(name => name.StartsWith("A", StringComparison.OrdinalIgnoreCase)).ToList();
+    }
+
+    private static string ReadString(string prompt)
+    {
+      string result;
+      do
+      {
+        Console.Write(prompt);
+        result = Console.ReadLine();
+        if (string.IsNullOrEmpty(result))
+        {
+          Console.WriteLine("Podaj niepusty ciąg znaków");
+        }
+      } while (string.IsNullOrEmpty(result));
+      return result;
+    }
+
+    private static int ReadInt(string prompt, int low, int high)
+    {
+      int result;
+      bool valid;
+      do
+      {
+        Console.Write(prompt);
+        valid = int.TryParse(Console.ReadLine(), out result) && result >= low && result <= high;
+        if (!valid)
+        {
+          Console.WriteLine($"Podaj liczbę z zakresu {low} - {high}");
+        }
+      } while (!valid);
+      return result;
     }
   }
 }
+/*
+     * •	Napisz program, który wczytuje z klawiatury liczbę n, a następnie n imion i lat osób.
+•	Użyj tablicy, aby przechować wczytane imiona i lata.
+•	Użyj listy, aby przechować tylko te imiona, które zaczynają się na literę A.
+•	Użyj słownika, aby przechować pary (imie, lata) dla wszystkich osób, których wiek jest większy niż 18 lat.
+•	Wypisz na ekranie zawartość tablicy, listy i słownika.
+    */
