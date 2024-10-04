@@ -1,0 +1,15 @@
+C:\dane\studia\wsb\2024\zajecia\po\wsb_2024_K_22\1_tablice_listy_slowniki\bin\Debug\net8.0\1_tablice_listy_slowniki.exe
+C:\dane\studia\wsb\2024\zajecia\po\wsb_2024_K_22\1_tablice_listy_slowniki\bin\Debug\net8.0\1_tablice_listy_slowniki.deps.json
+C:\dane\studia\wsb\2024\zajecia\po\wsb_2024_K_22\1_tablice_listy_slowniki\bin\Debug\net8.0\1_tablice_listy_slowniki.runtimeconfig.json
+C:\dane\studia\wsb\2024\zajecia\po\wsb_2024_K_22\1_tablice_listy_slowniki\bin\Debug\net8.0\1_tablice_listy_slowniki.dll
+C:\dane\studia\wsb\2024\zajecia\po\wsb_2024_K_22\1_tablice_listy_slowniki\bin\Debug\net8.0\1_tablice_listy_slowniki.pdb
+C:\dane\studia\wsb\2024\zajecia\po\wsb_2024_K_22\1_tablice_listy_slowniki\obj\Debug\net8.0\1_tablice_listy_slowniki.GeneratedMSBuildEditorConfig.editorconfig
+C:\dane\studia\wsb\2024\zajecia\po\wsb_2024_K_22\1_tablice_listy_slowniki\obj\Debug\net8.0\1_tablice_listy_slowniki.AssemblyInfoInputs.cache
+C:\dane\studia\wsb\2024\zajecia\po\wsb_2024_K_22\1_tablice_listy_slowniki\obj\Debug\net8.0\1_tablice_listy_slowniki.AssemblyInfo.cs
+C:\dane\studia\wsb\2024\zajecia\po\wsb_2024_K_22\1_tablice_listy_slowniki\obj\Debug\net8.0\1_tablice_listy_slowniki.csproj.CoreCompileInputs.cache
+C:\dane\studia\wsb\2024\zajecia\po\wsb_2024_K_22\1_tablice_listy_slowniki\obj\Debug\net8.0\1_tablice_listy_slowniki.sourcelink.json
+C:\dane\studia\wsb\2024\zajecia\po\wsb_2024_K_22\1_tablice_listy_slowniki\obj\Debug\net8.0\1_tablice_listy_slowniki.dll
+C:\dane\studia\wsb\2024\zajecia\po\wsb_2024_K_22\1_tablice_listy_slowniki\obj\Debug\net8.0\refint\1_tablice_listy_slowniki.dll
+C:\dane\studia\wsb\2024\zajecia\po\wsb_2024_K_22\1_tablice_listy_slowniki\obj\Debug\net8.0\1_tablice_listy_slowniki.pdb
+C:\dane\studia\wsb\2024\zajecia\po\wsb_2024_K_22\1_tablice_listy_slowniki\obj\Debug\net8.0\1_tablice_listy_slowniki.genruntimeconfig.cache
+C:\dane\studia\wsb\2024\zajecia\po\wsb_2024_K_22\1_tablice_listy_slowniki\obj\Debug\net8.0\ref\1_tablice_listy_slowniki.dll
